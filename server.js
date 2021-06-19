@@ -2,6 +2,8 @@ if (process.env.NODE_ENV !== 'production') {
   require('dotenv').config()
 }
 
+// Test Script
+
 const express = require('express')
 const mongoose = require('mongoose')
 const cookieParser = require('cookie-parser')
